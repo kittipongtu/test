@@ -1,0 +1,50 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.box-shadow-card {
+  box-shadow: 0;
+  transition: 0.05s;
+}
+
+.box-shadow-card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box-shadow-card-active {
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px 0px inset;
+}
+
+.selectedButton {
+  background-color: #ffa000;
+  color: #FFF;
+}
+
+.selectedButton:hover {
+  background-color: #ffa000;
+  color: #FFF;
+}
+
+.unselectedButton {
+  background-color: #ffffff;
+  color: #ffa000;
+}
+
+.swal2-container {
+  /* display: -webkit-box; */
+  /* display: flex; */
+  /* position: fixed; */
+  z-index: 300000;
+}

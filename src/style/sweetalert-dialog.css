@@ -1,0 +1,9 @@
+.swal2-container {
+    z-index: 1500;
+    /* Adjust this value */
+}
+
+.MuiDialog-root {
+    z-index: 1300;
+    /* Adjust this value */
+}
